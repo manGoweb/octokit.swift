@@ -4,7 +4,6 @@ import RequestKit
 // MARK: model
 
 @objc open class Branch: NSObject {
-    open let id: Int
     open var name: String?
     open let commit: Commit?
     open var isProtected: Bool
@@ -12,15 +11,9 @@ import RequestKit
     
     public init(_ json: [String: AnyObject]) {
         commit = Commit(json["commit"] as? [String: AnyObject] ?? [:])
-        if let id = json["id"] as? Int {
-            self.id = id
-            name = json["name"] as? String
-            isProtected = json["protected"] as? Bool ?? false
-            protectionUrl = json["protection_url"] as? String
-        } else {
-            id = -1
-            isProtected = false
-        }
+        name = json["name"] as? String
+        isProtected = json["protected"] as? Bool ?? false
+        protectionUrl = json["protection_url"] as? String
     }
 }
 
