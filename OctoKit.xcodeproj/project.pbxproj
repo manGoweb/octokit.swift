@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1582618C1F44FDD800E40A28 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branches.swift */; };
-		1582618D1F44FDEA00E40A28 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branches.swift */; };
-		1582618F1F44FDEB00E40A28 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branches.swift */; };
-		158261911F44FDEC00E40A28 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branches.swift */; };
+		1582618C1F44FDD800E40A28 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branch.swift */; };
+		1582618D1F44FDEA00E40A28 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branch.swift */; };
+		1582618F1F44FDEB00E40A28 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branch.swift */; };
+		158261911F44FDEC00E40A28 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582618B1F44FDD800E40A28 /* Branch.swift */; };
 		158261941F44FE4B00E40A28 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158261931F44FE4B00E40A28 /* Commit.swift */; };
 		158261951F44FE4B00E40A28 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158261931F44FE4B00E40A28 /* Commit.swift */; };
 		158261961F44FE4B00E40A28 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158261931F44FE4B00E40A28 /* Commit.swift */; };
@@ -211,7 +211,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1582618B1F44FDD800E40A28 /* Branches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branches.swift; sourceTree = "<group>"; };
+		1582618B1F44FDD800E40A28 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		158261931F44FE4B00E40A28 /* Commit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
 		234F4BA91BDDE31A00A58EF7 /* OctoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234F4BAD1BDDE31A00A58EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -369,7 +369,7 @@
 			children = (
 				239BE7CD1B8C47A100D2CE22 /* OctoKit.h */,
 				23B267851BDDD756003887E3 /* Configuration.swift */,
-				1582618B1F44FDD800E40A28 /* Branches.swift */,
+				1582618B1F44FDD800E40A28 /* Branch.swift */,
 				158261931F44FE4B00E40A28 /* Commit.swift */,
 				E7EE59DB1BE119110012E3D2 /* Follow.swift */,
 				E7EDEA691C871CEB006BAAF2 /* Issue.swift */,
@@ -786,7 +786,7 @@
 				DAEFC5901C83D85100CF3785 /* Label.swift in Sources */,
 				BF8C7BE0F4071324EBDCA204 /* PullRequest.swift in Sources */,
 				BF8C7567F24BC2E1EB83EE57 /* Parameters.swift in Sources */,
-				1582618C1F44FDD800E40A28 /* Branches.swift in Sources */,
+				1582618C1F44FDD800E40A28 /* Branch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,7 +807,7 @@
 				23CAF2A81C7AB6C6005011C4 /* Octokit.swift in Sources */,
 				E7EDEA6F1C871F81006BAAF2 /* Issue.swift in Sources */,
 				DAEFC5911C83D85100CF3785 /* Label.swift in Sources */,
-				1582618D1F44FDEA00E40A28 /* Branches.swift in Sources */,
+				1582618D1F44FDEA00E40A28 /* Branch.swift in Sources */,
 				BF8C797115D9BB2DE41E59E6 /* PullRequest.swift in Sources */,
 				BF8C7DEE90DD25CBCA4AEE71 /* Parameters.swift in Sources */,
 			);
@@ -848,7 +848,7 @@
 				23CAF2A91C7AB6C6005011C4 /* Octokit.swift in Sources */,
 				E7EDEA701C871F81006BAAF2 /* Issue.swift in Sources */,
 				DAEFC5921C83D85100CF3785 /* Label.swift in Sources */,
-				1582618F1F44FDEB00E40A28 /* Branches.swift in Sources */,
+				1582618F1F44FDEB00E40A28 /* Branch.swift in Sources */,
 				BF8C7FFFDDAFA560EBEC35EE /* PullRequest.swift in Sources */,
 				BF8C7A3F2B4817EF3AD1B315 /* Parameters.swift in Sources */,
 			);
@@ -889,7 +889,7 @@
 				23CAF2AA1C7AB6C7005011C4 /* Octokit.swift in Sources */,
 				E7EDEA711C871F82006BAAF2 /* Issue.swift in Sources */,
 				DAEFC5931C83D85100CF3785 /* Label.swift in Sources */,
-				158261911F44FDEC00E40A28 /* Branches.swift in Sources */,
+				158261911F44FDEC00E40A28 /* Branch.swift in Sources */,
 				BF8C7808F0A0A71D0110AD43 /* PullRequest.swift in Sources */,
 				BF8C7AB9EBD2E18007A8B77D /* Parameters.swift in Sources */,
 			);
